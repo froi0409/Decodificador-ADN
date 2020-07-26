@@ -1,6 +1,7 @@
 package inicio;
 import java.util.ArrayList;
 import java.util.Scanner;
+import interfazGrafica.*;
 /**
  *
  * @author froi
@@ -31,6 +32,13 @@ public class Decodificador {
             
             repetir = scan.nextInt();
         }while(repetir == 1);
+        
+    }
+    
+    public void mostrarVentana(){
+        
+        DecodificadorGrafico v1 = new DecodificadorGrafico();
+        v1.setVisible(true);
         
     }
     

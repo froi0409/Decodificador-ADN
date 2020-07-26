@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
 
         Decodificador decod = new Decodificador();
-        decod.iniciar();
+        decod.mostrarVentana();
         
     }
     
